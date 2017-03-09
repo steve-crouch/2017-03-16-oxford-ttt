@@ -297,7 +297,7 @@ According to Google Maps, the building is ~25 min walk from the train station. I
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 -->
-{% if page.etherpad %}
+
 <hr/>
 
 <p>
@@ -306,6 +306,7 @@ According to Google Maps, the building is ~25 min walk from the train station. I
   We will be using this Google Doc for taking notes collaboratively, chatting, sharing URLs and bits of code.
 </p>
 
+{% if page.etherpad %}
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
